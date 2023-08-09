@@ -23,18 +23,23 @@
 
     .rdt_Table {
       background-color: inherit;
-      border: 1px solid black;
+      border: 2px solid darkred;
 
       &Col {
         padding: 5px;
       }
 
       &Col:not(:last-child){
-        border-right: 2px solid white;
+        border-right: 2px solid darkred;
+      }
+
+      &Cell:not(:last-child) {
+        border-right: 2px solid darkred;
       }
 
       &HeadRow {
         background-color: #515e13;
+        border-bottom: 2px solid darkred;
 
         .fnljWB {
           font-weight: bold;
@@ -47,12 +52,14 @@
         }
       }
 
+      &Row:not(:last-child) {
+        border-bottom: 1px solid darkred;
+      }
 
       &Row:nth-child(odd) {
         background-color: inherit;
       }
     }
-
 
     .rdt_Pagination {
       background-color: inherit;
