@@ -26,6 +26,7 @@ function Datepicker({type}) {
     return (
         <DatePicker
             className={type}
+            id={type}
             renderCustomHeader={({
                                      date,
                                      changeYear,
