@@ -1,0 +1,69 @@
+.employeeList {
+
+  &__dataTable {
+    max-width: 1200px;
+    margin: auto;
+
+    .data-table-extensions {
+
+      &-filter {
+
+        .filter-text {
+          color: black;
+        }
+      }
+    }
+
+    .rdt_Table {
+      background-color: inherit;
+      border: 1px solid black;
+
+      &Col {
+        padding: 5px;
+      }
+
+      &Col:not(:last-child){
+        border-right: 2px solid white;
+      }
+
+      &HeadRow {
+        background-color: #515e13;
+
+        .fnljWB {
+          font-weight: bold;
+          font-size: 16px;
+          color: darkturquoise;
+        }
+
+        .lehlxw {
+          color: darkturquoise;
+        }
+      }
+
+
+      &Row:nth-child(odd) {
+        background-color: inherit;
+      }
+    }
+
+
+    .rdt_Pagination {
+      background-color: inherit;
+      justify-content: space-between;
+
+      .gXvWCN {
+        font-size: 16px;
+      }
+
+      .hSdUFd {
+        margin-right: auto;
+      }
+
+      .gXvWCN, .hSdUFd, .cBDvWX button {
+        color: black;
+        fill: black;
+        font-weight: 600;
+      }
+    }
+  }
+}

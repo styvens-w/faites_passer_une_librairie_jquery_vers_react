@@ -1,0 +1,19 @@
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+main {
+  border-bottom: 2px solid #73813c;
+  border-top: 2px solid #73813c;
+  background: #96ab49;
+}

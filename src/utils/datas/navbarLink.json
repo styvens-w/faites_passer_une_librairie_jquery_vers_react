@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Home",
+    "link": "/"
+  },
+  {
+    "title": "Create Employee",
+    "link": "/CreateEmployee"
+  },
+  {
+    "title": "List Employees",
+    "link": "/EmployeeList"
+  }
+]

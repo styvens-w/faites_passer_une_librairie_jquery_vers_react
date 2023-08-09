@@ -3,19 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@styvens-w/react-component-modal": "^1.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^7.4.1",
+    "prettier": "^3.0.0",
     "react": "^18.2.0",
+    "react-data-table-component": "^7.5.3",
+    "react-data-table-component-extensions": "^1.6.0",
+    "react-datepicker": "^4.16.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-hook-form": "^7.45.2",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1",
+    "react-table": "^7.8.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.64.1",
+    "styled-components": "^6.0.7",
+    "web-vitals": "^2.1.4",
+    "yamljs": "^0.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev:server": "nodemon ./backend/server/server.js",
+    "populate-db": "node ./backend/server/scripts/populateDatabase.js",
+    "server": "node ./backend/server/server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +61,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^3.0.1"
   }
 }

@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+
+
+  &__logo {
+    width: 250px;
+    margin: 15px;
+    border-radius: 5px;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  &__paragraph {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  section {
+    background: #e8e8e8;
+    width: fit-content;
+    height: fit-content;
+    margin: 150px auto;
+    border-radius: 8px;
+  }
+}
