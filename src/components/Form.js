@@ -48,7 +48,7 @@ function Form({ classN }) {
 
     useEffect(() => {
         if (success) {
-            setOpenModal(!openModal)
+            setOpenModal(true)
         }
     }, [success]);
 
