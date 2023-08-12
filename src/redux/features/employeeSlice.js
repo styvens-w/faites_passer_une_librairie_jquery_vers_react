@@ -26,7 +26,7 @@ const employeeSlice = createSlice({
 
     // "reducers" permet de définir les actions et le reducer
     reducers: {
-        // L'action setCredentials qui permet de mettre à jour la valeur du store (quand un utilisateur est connecté).
+        // L'action setCredentials qui permet de mettre à jour la valeur du store.
         setCredentials: (state, { payload }) => {
             state.employeesInfos = payload.body;
         },

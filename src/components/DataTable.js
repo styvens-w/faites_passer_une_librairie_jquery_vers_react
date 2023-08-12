@@ -11,7 +11,7 @@ function DataTable({ classN }) {
     const dispatch = useDispatch();
 
 
-    // On authentifie automatiquement l'utilisateur si le token est trouvé
+    // On récupère les données
     const { data } = useGetEmployeesQuery("employees");
 
     useEffect(() => {

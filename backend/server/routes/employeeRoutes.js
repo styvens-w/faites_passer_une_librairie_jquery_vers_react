@@ -4,7 +4,7 @@ const employeeController = require('../controllers/employeeController')
 
 router.post('/createEmployee', employeeController.createEmployee)
 
-router.post(
+router.get(
   '/getEmployees',
     employeeController.getEmployees
 )

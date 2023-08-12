@@ -29,7 +29,7 @@ module.exports.getEmployees = async serviceData => {
     const employees = await Employee.find({})
 
     if (!employees) {
-      throw new Error('Employee not found!')
+      throw new Error('Employees not found!')
     }
 
     return employees

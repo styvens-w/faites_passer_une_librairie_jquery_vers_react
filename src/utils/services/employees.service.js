@@ -24,13 +24,13 @@ export const employeesApi = createApi({
      * Ils sont définis comme un objet utilisant la syntaxe du builder.
      *
      * Il existe deux types de points de terminaison de base : requête et mutation.
-     * Ci-dessous, On crée un endpoints de requête qui envoie une requête "POST" à la route du profil.
+     * Ci-dessous, On crée un endpoints de requête qui envoie une requête "GET" à la route du profil.
      */
     endpoints: (builder) => ({
         getEmployees: builder.query({
             query: () => ({
                 url: "/getEmployees",
-                method: "POST",
+                method: "GET",
             }),
         }),
     }),

@@ -1,10 +1,10 @@
-const mongoose = require("mongoose");
+const {connect} = require("mongoose");
 const databaseUrl =
   process.env.DATABASE_URL || "mongodb://127.0.0.1/WealthHealthHRnet";
 
 module.exports = async () => {
   try {
-    await mongoose.connect(databaseUrl, { useNewUrlParser: true });
+    await connect(databaseUrl, { useNewUrlParser: true });
     console.log("Database successfully connected");
   } catch (error) {
     console.error(`Database Connectivity Error: ${error}`);
