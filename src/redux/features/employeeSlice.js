@@ -54,7 +54,7 @@ const employeeSlice = createSlice({
 
             .addCase(createEmployee.fulfilled, (state) => {
                 state.loading = false;
-                state.success = true; // inscription réussie
+                state.success = true; // ajout réussi
             })
 
             .addCase(createEmployee.rejected, (state, { payload }) => {
